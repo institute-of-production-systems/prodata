@@ -53,5 +53,7 @@ navigation:
     url: "/"
   - title: "News"
     url: "/news/"
+  - title: "Veröffentlichungen"
+    url: "/veroeffentlichungen/"
   - title: "Kontakt"
     url: "/#kontakt"
