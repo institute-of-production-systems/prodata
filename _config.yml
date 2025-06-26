@@ -1,0 +1,57 @@
+# Site settings
+title: "ProData Projekt"
+description: "Prozessketten-übergreifende Detektion von Material- und Prozessanomalien bei Imbalanced Data für technische Kunststoffbaugruppen"
+url: "https://institute-of-production-systems.github.io"
+baseurl: "/prodata"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /news/:title/
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Collections
+collections:
+  posts:
+    output: true
+    permalink: /news/:title/
+
+# Exclude from processing
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+# Site information
+project:
+  foerderkennzeichen: "16DKWN119A"
+  funding_program: "Stärkung der Datenkompetenzen des wissenschaftlichen Nachwuchses"
+  start_date: "2025"
+  partners:
+    - name: "RIF Institut für Forschung und Transfer e.V."
+      location: "Dortmund"
+      leader: "Prof. Dr.-Ing. Jochen Deuse"
+      url: "https://www.rif-ev.de/"
+    - name: "Institut für Werkstofftechnik, Universität Kassel"
+      location: "Kassel"
+      leader: "Prof. Dr.-Ing. Hans-Peter Heim"
+      url: "https://www.uni-kassel.de/maschinenbau/institute/werkstofftechnik"
+
+# Language settings (for future use)
+default_lang: "de"
+
+# Navigation
+navigation:
+  - title: "Start"
+    url: "/"
+  - title: "News"
+    url: "/news/"
+  - title: "Kontakt"
+    url: "/#kontakt"

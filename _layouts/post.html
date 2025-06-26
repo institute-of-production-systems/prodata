@@ -1,0 +1,208 @@
+---
+layout: default
+---
+
+<article class="post">
+    <!-- Post Header -->
+    <header class="post-header">
+        <div class="post-meta-top">
+            <a href="{{ '/news/' | relative_url }}" class="back-to-news">← Zurück zu News</a>
+        </div>
+        
+        <h1 class="post-title">{{ page.title }}</h1>
+        
+        <div class="post-meta">
+            <time datetime="{{ page.date | date_to_xmlschema }}" class="post-date">
+                {{ page.date | date: "%d. %B %Y" }}
+            </time>
+            
+            {% if page.author %}
+            <span class="post-author">von {{ page.author }}</span>
+            {% endif %}
+            
+            {% if page.category %}
+            <span class="post-category">{{ page.category }}</span>
+            {% endif %}
+            
+            {% if page.reading_time %}
+            <span class="reading-time">{{ page.reading_time }} Min. Lesezeit</span>
+            {% endif %}
+        </div>
+        
+        {% if page.excerpt %}
+        <div class="post-excerpt">
+            {{ page.excerpt }}
+        </div>
+        {% endif %}
+    </header>
+
+    <!-- Featured Image -->
+    {% if page.image %}
+    <div class="post-image">
+        <img src="{{ page.image | relative_url }}" alt="{{ page.title }}">
+        {% if page.image_caption %}
+        <p class="image-caption">{{ page.image_caption }}</p>
+        {% endif %}
+    </div>
+    {% endif %}
+
+    <!-- Post Content -->
+    <div class="post-content">
+        {{ content }}
+    </div>
+
+    <!-- Post Footer -->
+    <footer class="post-footer">
+        <!-- Tags -->
+        {% if page.tags and page.tags.size > 0 %}
+        <div class="post-tags">
+            <h4>Tags:</h4>
+            <div class="tags-list">
+                {% for tag in page.tags %}
+                <span class="tag">{{ tag }}</span>
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
+
+        <!-- Share Section -->
+        <div class="post-share">
+            <h4>Artikel teilen:</h4>
+            <div class="share-buttons">
+                <a href="mailto:?subject={{ page.title | uri_escape }}&body=Interessanter Artikel: {{ page.url | absolute_url | uri_escape }}" 
+                   class="share-email" title="Per E-Mail teilen">
+                    📧 E-Mail
+                </a>
+                <a href="https://twitter.com/intent/tweet?text={{ page.title | uri_escape }}&url={{ page.url | absolute_url | uri_escape }}" 
+                   target="_blank" rel="noopener" class="share-twitter" title="Auf Twitter teilen">
+                    🐦 Twitter
+                </a>
+                <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ page.url | absolute_url | uri_escape }}" 
+                   target="_blank" rel="noopener" class="share-linkedin" title="Auf LinkedIn teilen">
+                    💼 LinkedIn
+                </a>
+                <button onclick="copyToClipboard()" class="share-copy" title="Link kopieren">
+                    🔗 Link kopieren
+                </button>
+            </div>
+        </div>
+
+        <!-- Related Posts -->
+        {% assign related_posts = site.posts | where: "lang", "de" | where_exp: "post", "post.url != page.url" | limit: 3 %}
+        {% if related_posts.size > 0 %}
+        <div class="related-posts">
+            <h4>Weitere Artikel:</h4>
+            <div class="related-posts-list">
+                {% for post in related_posts %}
+                <article class="related-post">
+                    <h5><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h5>
+                    <p class="related-date">{{ post.date | date: "%d.%m.%Y" }}</p>
+                </article>
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
+
+        <!-- Navigation -->
+        <nav class="post-navigation">
+            {% if page.previous.url %}
+            <div class="nav-previous">
+                <a href="{{ page.previous.url | relative_url }}" rel="prev">
+                    <span class="nav-label">← Vorheriger Artikel</span>
+                    <span class="nav-title">{{ page.previous.title }}</span>
+                </a>
+            </div>
+            {% endif %}
+            
+            {% if page.next.url %}
+            <div class="nav-next">
+                <a href="{{ page.next.url | relative_url }}" rel="next">
+                    <span class="nav-label">Nächster Artikel →</span>
+                    <span class="nav-title">{{ page.next.title }}</span>
+                </a>
+            </div>
+            {% endif %}
+        </nav>
+    </footer>
+</article>
+
+<!-- JavaScript for Share Functionality -->
+<script>
+function copyToClipboard() {
+    const url = window.location.href;
+    
+    if (navigator.clipboard && window.isSecureContext) {
+        // Modern async clipboard API
+        navigator.clipboard.writeText(url).then(function() {
+            showCopyNotification('Link wurde in die Zwischenablage kopiert!');
+        }, function(err) {
+            fallbackCopyTextToClipboard(url);
+        });
+    } else {
+        // Fallback for older browsers
+        fallbackCopyTextToClipboard(url);
+    }
+}
+
+function fallbackCopyTextToClipboard(text) {
+    const textArea = document.createElement("textarea");
+    textArea.value = text;
+    
+    // Avoid scrolling to bottom
+    textArea.style.top = "0";
+    textArea.style.left = "0";
+    textArea.style.position = "fixed";
+
+    document.body.appendChild(textArea);
+    textArea.focus();
+    textArea.select();
+
+    try {
+        const successful = document.execCommand('copy');
+        if (successful) {
+            showCopyNotification('Link wurde in die Zwischenablage kopiert!');
+        } else {
+            showCopyNotification('Kopieren fehlgeschlagen. Bitte manuell kopieren: ' + text);
+        }
+    } catch (err) {
+        showCopyNotification('Kopieren fehlgeschlagen. Bitte manuell kopieren: ' + text);
+    }
+
+    document.body.removeChild(textArea);
+}
+
+function showCopyNotification(message) {
+    // Create notification
+    const notification = document.createElement('div');
+    notification.className = 'copy-notification';
+    notification.textContent = message;
+    
+    // Style notification
+    notification.style.cssText = `
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        background: #4CAF50;
+        color: white;
+        padding: 12px 20px;
+        border-radius: 4px;
+        z-index: 1000;
+        font-size: 14px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+        transition: opacity 0.3s ease;
+    `;
+    
+    // Add to page
+    document.body.appendChild(notification);
+    
+    // Remove after 3 seconds
+    setTimeout(() => {
+        notification.style.opacity = '0';
+        setTimeout(() => {
+            if (notification.parentNode) {
+                document.body.removeChild(notification);
+            }
+        }, 300);
+    }, 3000);
+}
+</script>
