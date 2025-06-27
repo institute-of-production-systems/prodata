@@ -127,7 +127,7 @@ compress_html:
     envs: development
 
 # Theme
-remote_theme: "mmistakes/minimal-mistakes@4.27.1"
+remote_theme: "mmistakes/minimal-mistakes"
 
 # Defaults
 defaults:
