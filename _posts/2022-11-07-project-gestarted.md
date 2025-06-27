@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "Projektstart im Forschungsprojekt ProData"
 date: 2022-11-07 10:00:00 +0200
 category: Forschung

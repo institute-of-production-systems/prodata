@@ -1,59 +1,173 @@
-# Site settings
-title: "ProData Projekt"
-description: "Prozessketten-übergreifende Detektion von Material- und Prozessanomalien bei Imbalanced Data für technische Kunststoffbaugruppen"
-url: "https://institute-of-production-systems.github.io"
-baseurl: "/prodata"
+# ProData Project Website Configuration
+# Based on Minimal Mistakes Jekyll Theme and a starter
+# https://github.com/mmistakes/mm-github-pages-starter
 
-# Build settings
+# Site Settings
+locale: "de-DE"
+title: "ProData Projekt"
+title_separator: "-"
+subtitle: "Prozessketten-übergreifende Detektion von Material- und Prozessanomalien"
+name: "ProData Team"
+description: "BMBF-gefördertes Forschungsprojekt zur Anomalieerkennung in der Kunststoffverarbeitung mit Machine Learning"
+url: "https://www.prodata-project.de"
+baseurl: ""
+repository: "institute-of-production-systems/prodata"
+teaser: # path of fallback teaser image
+logo: "/assets/images/prodata-logo.png"
+masthead_title: "ProData"
+breadcrumbs: true
+words_per_minute: 200
+
+# Site Footer
+footer:
+  links:
+    - label: "RIF Institut"
+      icon: "fas fa-fw fa-link"
+      url: "https://www.rif-ev.de/"
+    - label: "Uni Kassel"
+      icon: "fas fa-fw fa-link"
+      url: "https://www.uni-kassel.de/maschinenbau/institute/werkstofftechnik"
+
+# Reading Files
+include:
+  - .htaccess
+  - _pages
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - vendor
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/plugins
+  - assets/js/_main.js
+  - assets/js/vendor
+  - Capfile
+  - CHANGELOG
+  - config
+  - Gemfile
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - log
+  - node_modules
+  - package.json
+  - package-lock.json
+  - Rakefile
+  - README
+  - tmp
+keep_files:
+  - .git
+  - .svn
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+# Conversion
 markdown: kramdown
 highlighter: rouge
-permalink: /news/:title/
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
 
-# Plugins
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Outputting
+permalink: /:categories/:title/
+paginate: 5 # amount of posts to show
+paginate_path: /news/page:num/
+timezone: Europe/Berlin
+
+# Plugins (previously gems:)
 plugins:
-  - jekyll-feed
+  - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-seo-tag
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+  - jemoji
+  - jekyll-algolia
 
-# Collections
-collections:
-  posts:
-    output: true
-    permalink: /news/:title/
+# mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+  - jemoji
+  - jekyll-algolia
 
-# Exclude from processing
-exclude:
-  - README.md
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor
+# Archives
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
 
-# Site information
+# HTML Compression
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
+
+# Theme
+remote_theme: "mmistakes/minimal-mistakes@4.27.1"
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: false
+      read_time: true
+      comments: false
+      share: true
+      related: true
+      toc: true
+      toc_sticky: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: false
+      toc: true
+      toc_sticky: true
+
+# Project specific data
 project:
   foerderkennzeichen: "16DKWN119A"
   funding_program: "Stärkung der Datenkompetenzen des wissenschaftlichen Nachwuchses"
-  start_date: "2025"
+  start_date: "2022"
+  end_date: "2025"
   partners:
     - name: "RIF Institut für Forschung und Transfer e.V."
       location: "Dortmund"
       leader: "Prof. Dr.-Ing. Jochen Deuse"
       url: "https://www.rif-ev.de/"
+      email: "deuse@rif-ev.de"
     - name: "Institut für Werkstofftechnik, Universität Kassel"
       location: "Kassel"
       leader: "Prof. Dr.-Ing. Hans-Peter Heim"
       url: "https://www.uni-kassel.de/maschinenbau/institute/werkstofftechnik"
-
-# Language settings (for future use)
-default_lang: "de"
-
-# Navigation
-navigation:
-  - title: "Start"
-    url: "/"
-  - title: "News"
-    url: "/news/"
-  - title: "Veröffentlichungen"
-    url: "/veroeffentlichungen/"
-  - title: "Kontakt"
-    url: "/#kontakt"
+      email: "heim@uni-kassel.de"

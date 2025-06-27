@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+// Import Minimal Mistakes theme first
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; 
+@import "minimal-mistakes";
+
+/* Minimal ProData Custom Styles - Only Essential Additions */
+
+// Only add minimal custom styles that don't interfere with MM layout
+:root {
+  --prodata-primary: #2c5aa0;
+  --prodata-secondary: #004494;
+  --prodata-accent: #ffd700;
+}
+
+// Only add specific custom elements that don't exist in MM
+.funding-notice {
+  background: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 8px;
+  border-left: 4px solid var(--prodata-primary);
+  margin: 2rem 0;
+  
+  h4 {
+    color: var(--prodata-primary);
+    margin-bottom: 1rem;
+  }
+}
+
+// Simple tag styling
+.keyword-tag, .tag {
+  display: inline-block;
+  background: var(--prodata-primary);
+  color: white;
+  padding: 0.25rem 0.75rem;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  margin: 0.25rem 0.5rem 0.25rem 0;
+}

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "Workshop zum Einsatz von Maschinellem Lernen in Kassel durchgeführt"
 date: 2023-07-10 10:00:00 +0200
 category: Veranstaltungen

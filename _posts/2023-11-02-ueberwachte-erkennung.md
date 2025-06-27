@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "Ansatz zur unüberwachten Erkennung von Anomalien erschienen"
 date: 2023-11-02 14:00:00 +0200
 category: Veröffentlichungen

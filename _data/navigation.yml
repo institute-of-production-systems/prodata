@@ -1,0 +1,14 @@
+# Main navigation for ProData website
+main:
+  - title: "Home"
+    url: /
+  - title: "Forschung"
+    url: /research/
+  - title: "Partner"
+    url: /partners/
+  - title: "News"
+    url: /news/
+  - title: "Veröffentlichungen"
+    url: /publications/
+  - title: "Kontakt"
+    url: /contact/

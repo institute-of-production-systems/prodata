@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "Vertiefender Workshop zum Arbeiten mit RapidMiner durchgeführt"
 date: 2023-11-20 14:30:00 +0200
 category: Veranstaltungen
