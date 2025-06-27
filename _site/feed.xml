@@ -1,0 +1,694 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-06-27T07:56:05+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ProData Projekt</title><subtitle>BMBF-gefördertes Forschungsprojekt zur Anomalieerkennung in der Kunststoffverarbeitung mit Machine Learning</subtitle><entry><title type="html">Comparative Study of Machine Learning Methods for Anomaly Detection in Screwing Data</title><link href="http://localhost:4000/news/publications/paper-hicss-24/" rel="alternate" type="text/html" title="Comparative Study of Machine Learning Methods for Anomaly Detection in Screwing Data" /><published>2024-01-03T14:00:00+02:00</published><updated>2024-01-03T14:00:00+02:00</updated><id>http://localhost:4000/news/publications/paper-hicss-24</id><content type="html" xml:base="http://localhost:4000/news/publications/paper-hicss-24/"><![CDATA[<h1 id="systematischer-vergleich-von-ml-methoden-für-schraubdaten">Systematischer Vergleich von ML-Methoden für Schraubdaten</h1>
+
+<p>Diese Publikation präsentiert eine <strong>umfassende Vergleichsstudie</strong> verschiedener Machine Learning Ansätze zur Anomalieerkennung in Schraubprozessen und adressiert damit ein zentrales Problem der modernen Qualitätssicherung.</p>
+
+<h2 id="-industrieller-kontext">🔧 Industrieller Kontext</h2>
+
+<h3 id="herausforderung-der-schraubverbindungen"><strong>Herausforderung der Schraubverbindungen:</strong></h3>
+<p>Aufgrund ihrer <strong>Häufigkeit in der Fertigung</strong> ist die effektive und zuverlässige Qualitätssicherung bei Schraubverbindungen besonders wichtig…</p>
+
+<p>[Rest of your content…]</p>
+
+<hr />
+
+<h2 id="-zitation">📚 Zitation</h2>
+
+<p><strong>BibTeX:</strong></p>
+<div class="language-bibtex highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">west2024comparative</span><span class="p">,</span>
+  <span class="na">title</span><span class="p">=</span><span class="s">{Comparative Study of Machine Learning Methods for Anomaly Detection in Screwing Data}</span><span class="p">,</span>
+  <span class="na">author</span><span class="p">=</span><span class="s">{West, N. and Deuse, J.}</span><span class="p">,</span>
+  <span class="na">booktitle</span><span class="p">=</span><span class="s">{Hawaii International Conference on System Sciences}</span><span class="p">,</span>
+  <span class="na">year</span><span class="p">=</span><span class="s">{2024}</span><span class="p">,</span>
+  <span class="na">doi</span><span class="p">=</span><span class="s">{10.24251/HICSS.2024.127}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p><strong>APA:</strong>
+West, N., &amp; Deuse, J. (2024). Comparative Study of Machine Learning Methods for Anomaly Detection in Screwing Data. <em>Hawaii International Conference on System Sciences</em>. https://doi.org/10.24251/HICSS.2024.127</p>]]></content><author><name>ProData Team</name></author><category term="news" /><category term="publications" /><category term="Machine Learning" /><category term="Anomaly Detection" /><category term="Screwing Process" /><category term="Manufacturing" /><summary type="html"><![CDATA[Vergleichsstudie von acht Machine Learning Methoden zur Anomalieerkennung in Schraubdaten mit Fokus auf überwachte vs. unüberwachte Ansätze.]]></summary></entry><entry xml:lang="de"><title type="html">Vertiefender Workshop zum Arbeiten mit RapidMiner durchgeführt</title><link href="http://localhost:4000/veranstaltungen/rapidminer-workshop/" rel="alternate" type="text/html" title="Vertiefender Workshop zum Arbeiten mit RapidMiner durchgeführt" /><published>2023-11-20T14:30:00+02:00</published><updated>2023-11-20T14:30:00+02:00</updated><id>http://localhost:4000/veranstaltungen/rapidminer-workshop</id><content type="html" xml:base="http://localhost:4000/veranstaltungen/rapidminer-workshop/"><![CDATA[<h1 id="vertiefender-workshop-zum-arbeiten-mit-rapidminer-durchgeführt">Vertiefender Workshop zum Arbeiten mit RapidMiner durchgeführt</h1>
+
+<p>In einem <a href="/news/workshop-maschinelles-lernen-kassel/">vorherigen Workshop zum Einsatz von Maschinellem Lernen</a> im <strong>Juli 2023</strong> wurden zum einen die Grundlagen des maschinellen Lernens und zum anderen eine Einführung in die Nutzung der Datenanalysesoftware <strong>RapidMiner</strong> behandelt.</p>
+
+<p>Aufbauend auf diesen Workshop wurde im <strong>Herbst 2023</strong> auf Wunsch der Teilnehmer ein <strong>vertiefender Workshop</strong> zum Arbeiten mit RapidMiner durchgeführt.</p>
+
+<h2 id="-rückblick-auf-den-juli-workshop">🔄 Rückblick auf den Juli-Workshop</h2>
+
+<p>Zuerst wurde ein <strong>Rückblick auf die Inhalte</strong> aus dem Juli-Workshop vorgestellt. Dabei wurden die folgenden Kernthemen wiederholt:</p>
+
+<h3 id="-kernthemen-des-grundlagen-workshops">📚 Kernthemen des Grundlagen-Workshops</h3>
+
+<ul>
+  <li><strong>Schnittstelle</strong> aus Informatik, Statistik und spezifischem Domänenwissen</li>
+  <li><strong>Begriffe</strong> künstliche Intelligenz (KI), maschinelles Lernen (ML), neuronale Netze und Deep Learning</li>
+  <li><strong>Cross-Industry Standard Process for Data Mining</strong> (CRISP-DM-Prozess)</li>
+  <li><strong>Kernkomponenten</strong> des Maschinellen Lernens: Supervised (überwacht), Unsupervised (unüberwacht) Learning</li>
+  <li><strong>Einführung in RapidMiner</strong> mit einer praktischen Anwendung zum überwachten Lernverfahren</li>
+</ul>
+
+<blockquote>
+  <p>💡 <strong>Mehr Informationen</strong> zum <a href="/news/workshop-maschinelles-lernen-kassel/">Juli-Workshop finden Sie hier</a></p>
+</blockquote>
+
+<h2 id="-vertiefung-im-herbst-workshop">🚀 Vertiefung im Herbst-Workshop</h2>
+
+<p>Im zweiten Workshop wurde die <strong>praktische Anwendung der Datenanalysesoftware RapidMiner</strong> vertieft. Die Teilnehmer bearbeiteten eine <strong>Aufgabenstellung zur Klassifikation</strong> eines Datensatzes in Gruppen - einmal mit überwachten und einmal mit unüberwachten Lernverfahren.</p>
+
+<h2 id="-überwachte-lernverfahren">👨‍🏫 Überwachte Lernverfahren</h2>
+
+<p>Die Teilnehmer lernten verschiedene <strong>Klassifikationsmethoden</strong> kennen und anzuwenden:</p>
+
+<h3 id="-behandelte-algorithmen">🔍 Behandelte Algorithmen</h3>
+
+<ol>
+  <li><strong>k-nearest neighbors (k-NN)</strong>
+    <ul>
+      <li>Klassifikation basierend auf den nächsten Nachbarn</li>
+      <li>Einfach zu verstehen und implementieren</li>
+    </ul>
+  </li>
+  <li><strong>Decision Trees (Entscheidungsbäume)</strong>
+    <ul>
+      <li>Baumstruktur für Entscheidungsfindung</li>
+      <li>Gut interpretierbare Ergebnisse</li>
+    </ul>
+  </li>
+  <li><strong>Naïve Bayes</strong>
+    <ul>
+      <li>Probabilistischer Klassifikator</li>
+      <li>Besonders effektiv bei Textklassifikation</li>
+    </ul>
+  </li>
+  <li><strong>Artificial Neural Networks (Künstliche Neuronale Netze)</strong>
+    <ul>
+      <li>Nachbildung biologischer Nervensysteme</li>
+      <li>Leistungsfähig bei komplexen Mustern</li>
+    </ul>
+  </li>
+</ol>
+
+<h3 id="-wichtige-konzepte">📈 Wichtige Konzepte</h3>
+
+<p>Nach einer kurzen <strong>Einführung aller Lernverfahren</strong> und der Bereitstellung weiterer Informationen wurden folgende Themen behandelt:</p>
+
+<ul>
+  <li><strong>ML Pipeline</strong> - Systematischer Aufbau von Machine Learning Workflows</li>
+  <li><strong>Konfusionsmatrix</strong> - Bewertung der Klassifikationsleistung</li>
+  <li><strong>Kreuzvalidierung</strong> - Robuste Modellbewertung</li>
+</ul>
+
+<h2 id="-praktische-datenanalyse">🔍 Praktische Datenanalyse</h2>
+
+<h3 id="-explorative-datenanalyse">📊 Explorative Datenanalyse</h3>
+
+<p>Die Teilnehmer führten eine <strong>explorative Datenanalyse</strong> durch, um festzustellen, ob <strong>visuelle Unterschiede zwischen vier ausgewählten Klassen</strong> zu erkennen sind.</p>
+
+<h3 id="-data-preparation-datenaufbereitung">🧹 Data Preparation (Datenaufbereitung)</h3>
+
+<p>Der Prozess umfasste:</p>
+
+<ol>
+  <li><strong>Datenqualität untersuchen</strong></li>
+  <li><strong>Daten aufbereiten</strong> (wenn nötig)</li>
+  <li><strong>Input und Output zuweisen</strong> (beispielsweise ID &amp; Label)</li>
+  <li><strong>Aufteilen</strong> in Trainings- und Testdatensatz</li>
+</ol>
+
+<h3 id="-data-modeling-datenmodellierung">🎯 Data Modeling (Datenmodellierung)</h3>
+
+<p>Das <strong>Data Modeling</strong> beschreibt:</p>
+<ul>
+  <li><strong>Trainieren des Modells</strong></li>
+  <li><strong>Vergleichen der Ergebnisse</strong></li>
+  <li><strong>Auswählen des besten Modells</strong></li>
+</ul>
+
+<h3 id="-evaluation">📋 Evaluation</h3>
+
+<p>Die <strong>Evaluation</strong> erfolgte durch <strong>Visualisierung mittels Konfusionsmatrix</strong>, die es ermöglicht:</p>
+<ul>
+  <li>✅ <strong>Richtige Klassifikationen</strong> zu identifizieren</li>
+  <li>❌ <strong>Fehlklassifikationen</strong> zu analysieren</li>
+  <li>📊 <strong>Modellleistung</strong> quantitativ zu bewerten</li>
+</ul>
+
+<h2 id="-unüberwachte-lernverfahren-clustering">🔍 Unüberwachte Lernverfahren (Clustering)</h2>
+
+<p>Im zweiten Teil wurde der <strong>gleiche Datensatz mittels unüberwachten Lernverfahren</strong> gruppiert:</p>
+
+<h3 id="-clustering-methoden">🎯 Clustering-Methoden</h3>
+
+<h4 id="1-k-means-clustering">1. <strong>K-Means Clustering</strong></h4>
+<ul>
+  <li><strong>Zentroid-basiertes Clustering</strong></li>
+  <li>Teilt Daten in k Cluster auf</li>
+  <li>Minimiert Varianz innerhalb der Cluster</li>
+</ul>
+
+<h4 id="2-dbscan-density-based-spatial-clustering-of-applications-with-noise">2. <strong>DBSCAN</strong> (Density-Based Spatial Clustering of Applications with Noise)</h4>
+<ul>
+  <li><strong>Dichtebasiertes Clustering</strong></li>
+  <li>Erkennt Cluster beliebiger Form</li>
+  <li>Identifiziert automatisch Ausreißer</li>
+</ul>
+
+<h3 id="-vergleich-der-ansätze">🔬 Vergleich der Ansätze</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Methode</th>
+      <th>Vorteile</th>
+      <th>Besonderheiten</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>K-Means</strong></td>
+      <td>✅ Schnell und effizient<br />✅ Gut für sphärische Cluster</td>
+      <td>🎯 Anzahl Cluster muss vorgegeben werden</td>
+    </tr>
+    <tr>
+      <td><strong>DBSCAN</strong></td>
+      <td>✅ Findet beliebige Cluster-Formen<br />✅ Erkennt Ausreißer automatisch</td>
+      <td>🎯 Parameter müssen sorgfältig gewählt werden</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="-wissensvermittlung-und-praxis">📚 Wissensvermittlung und Praxis</h2>
+
+<p>Der Workshop kombinierte erfolgreich <strong>theoretische Grundlagen</strong> mit <strong>praktischer Anwendung</strong>:</p>
+
+<h3 id="-theoretische-komponenten">📖 Theoretische Komponenten</h3>
+<ul>
+  <li><strong>Algorithmus-Erklärungen</strong> für jede Methode</li>
+  <li><strong>Weiterführende Informationen</strong> zu Klassifikationsmethoden</li>
+  <li><strong>Konzeptuelle Grundlagen</strong> des Machine Learning</li>
+</ul>
+
+<h3 id="️-praktische-übungen">🛠️ Praktische Übungen</h3>
+<ul>
+  <li><strong>Hands-On Erfahrung</strong> mit RapidMiner</li>
+  <li><strong>Reale Datensätze</strong> aus dem Juli-Workshop</li>
+  <li><strong>Vergleichende Analyse</strong> verschiedener Methoden</li>
+  <li><strong>Visualisierung der Ergebnisse</strong></li>
+</ul>
+
+<h2 id="-ausblick-python-programmierung">🚀 Ausblick: Python-Programmierung</h2>
+
+<h3 id="-nächste-entwicklungsstufe">📈 Nächste Entwicklungsstufe</h3>
+
+<p>Im Rahmen der Lehrveranstaltung <strong>„Industrial Data Science”</strong>, die vom <strong>Institut für Produktionssysteme an der TU Dortmund</strong> durchgeführt wird, soll in Zukunft ein <strong>Grundlagenkurs zur Programmierung und Anwendung maschineller Lernverfahren in Python</strong> angeboten werden.</p>
+
+<h3 id="-warum-python">🐍 Warum Python?</h3>
+
+<p>Python bietet gegenüber RapidMiner:</p>
+<ul>
+  <li>✅ <strong>Mehr Flexibilität</strong> bei der Algorithmus-Entwicklung</li>
+  <li>✅ <strong>Größere Auswahl</strong> an Machine Learning Bibliotheken</li>
+  <li>✅ <strong>Bessere Integration</strong> in Produktionsumgebungen</li>
+  <li>✅ <strong>Standardsprache</strong> in der Data Science Community</li>
+</ul>
+
+<h2 id="-erfolgreiche-kompetenzentwicklung">🎯 Erfolgreiche Kompetenzentwicklung</h2>
+
+<h3 id="-workshop-erfolg">📊 Workshop-Erfolg</h3>
+
+<p>Dieser <strong>vertiefende Workshop</strong> war ein wichtiger Schritt in der <strong>Kompetenzentwicklung</strong> der IfW-Mitarbeiter:</p>
+
+<ul>
+  <li>✅ <strong>Praktische Erfahrung</strong> mit verschiedenen ML-Algorithmen</li>
+  <li>✅ <strong>Verständnis</strong> für überwachte vs. unüberwachte Verfahren</li>
+  <li>✅ <strong>Anwendung</strong> auf reale Datensätze</li>
+  <li>✅ <strong>Vorbereitung</strong> für fortgeschrittene Methoden</li>
+</ul>
+
+<h3 id="-kontinuierlicher-lernprozess">🔄 Kontinuierlicher Lernprozess</h3>
+
+<p>Die Workshop-Serie zeigt die <strong>erfolgreiche Umsetzung</strong> des ProData-Ziels:</p>
+<blockquote>
+  <p><strong>Stärkung der Datenkompetenzen des wissenschaftlichen Nachwuchses</strong></p>
+</blockquote>
+
+<hr />
+
+<p><strong>Workshop-Details:</strong></p>
+<ul>
+  <li><strong>Datum:</strong> November 2023</li>
+  <li><strong>Ort:</strong> Kassel, Institut für Werkstofftechnik</li>
+  <li><strong>Aufbau:</strong> Vertiefung des Juli-Workshops</li>
+  <li><strong>Methoden:</strong> 4 überwachte + 2 unüberwachte Verfahren</li>
+  <li><strong>Nächster Schritt:</strong> Python-Programmierung für Machine Learning</li>
+</ul>]]></content><author><name>ProData Team</name></author><category term="Veranstaltungen" /><category term="Workshop" /><category term="RapidMiner" /><category term="Machine Learning" /><category term="Clustering" /><category term="Klassifikation" /><category term="Datenanalyse" /><summary type="html"><![CDATA[Aufbauend auf den Juli-Workshop wurde im Herbst 2023 auf Wunsch der Teilnehmer ein vertiefender Workshop zum Arbeiten mit RapidMiner durchgeführt. Dabei wurden sowohl überwachte als auch unüberwachte Lernverfahren praktisch angewendet.]]></summary></entry><entry xml:lang="de"><title type="html">Ansatz zur unüberwachten Erkennung von Anomalien erschienen</title><link href="http://localhost:4000/ver%C3%B6ffentlichungen/ueberwachte-erkennung/" rel="alternate" type="text/html" title="Ansatz zur unüberwachten Erkennung von Anomalien erschienen" /><published>2023-11-02T14:00:00+02:00</published><updated>2023-11-02T14:00:00+02:00</updated><id>http://localhost:4000/ver%C3%B6ffentlichungen/ueberwachte-erkennung</id><content type="html" xml:base="http://localhost:4000/ver%C3%B6ffentlichungen/ueberwachte-erkennung/"><![CDATA[<h1 id="ansatz-zur-unüberwachten-erkennung-von-anomalien-erschienen">Ansatz zur unüberwachten Erkennung von Anomalien erschienen</h1>
+
+<h2 id="-herausforderung-qualitätssicherung-bei-schraubverbindungen">🔩 Herausforderung: Qualitätssicherung bei Schraubverbindungen</h2>
+
+<p>Da <strong>Schraubverbindungen in der Fertigung allgegenwärtig</strong> sind, ist ihre effektive und zuverlässige Qualitätssicherung besonders wichtig. Die meisten Anziehverfahren stützen sich auf statistische Methoden, um fehlerhafte Schraubverbindungen bereits während der Montage zu erkennen.</p>
+
+<h2 id="-unser-innovativer-ansatz">🧠 Unser innovativer Ansatz</h2>
+
+<p>In diesem Beitrag befassen wir uns mit der <strong>Erkennung von fehlerhaften Schraubvorgängen</strong> mit Hilfe eines <strong>clusterbasierten Ansatzes</strong> aus dem Bereich des unüberwachten maschinellen Lernens.</p>
+
+<h3 id="-methodischer-ansatz">🎯 Methodischer Ansatz</h3>
+
+<p>Insbesondere wenden wir den <strong>k-Means-Algorithmus</strong> auf einen realen Datensatz aus der <strong>Automobilindustrie</strong> an. Das Modell verwendet <strong>Dynamic Time Warping</strong>, um die Ähnlichkeit zwischen normalen und abnormalen Schraubvorgängen zu bestimmen, wobei jeder Vorgang als <strong>unabhängige zeitliche Sequenz</strong> behandelt wird.</p>
+
+<h3 id="-technische-innovation">⚡ Technische Innovation</h3>
+
+<p><strong>Dynamic Time Warping (DTW)</strong> ist eine Technik, die es ermöglicht:</p>
+<ul>
+  <li><strong>Zeitreihen unterschiedlicher Längen</strong> zu vergleichen</li>
+  <li><strong>Ähnlichkeitsmuster</strong> auch bei zeitlichen Verschiebungen zu erkennen</li>
+  <li><strong>Robuste Distanzmessungen</strong> zwischen Sequenzen durchzuführen</li>
+</ul>
+
+<h2 id="-drei-entscheidende-vorteile">✅ Drei entscheidende Vorteile</h2>
+
+<p>Dieser Ansatz bietet <strong>drei Vorteile</strong> gegenüber bestehenden überwachten Methoden:</p>
+
+<h3 id="1--flexible-zeitreihenlängen">1. 📏 Flexible Zeitreihenlängen</h3>
+<p><strong>Zeitreihen mit unterschiedlichen Längen</strong> können ohne umfangreiche Vorverarbeitungsschritte genutzt werden</p>
+
+<h3 id="2--erkennung-unbekannter-fehler">2. 🔍 Erkennung unbekannter Fehler</h3>
+<p><strong>Bisher unbekannte Fehler</strong> können mit dem unüberwachten Ansatz erkannt werden</p>
+
+<h3 id="3-️-keine-manuellen-labels-nötig">3. 🏷️ Keine manuellen Labels nötig</h3>
+<p><strong>Umfangreiche manuelle Anstrengungen</strong> zur Erzeugung von Labels sind nicht mehr notwendig</p>
+
+<h2 id="-beeindruckende-ergebnisse">📊 Beeindruckende Ergebnisse</h2>
+
+<p>Um den Ansatz zu evaluieren, wird er in einem <strong>Szenario angewendet, in dem tatsächliche Klassenlabels verfügbar</strong> sind. Dies ermöglicht die Bewertung der Clustering-Ergebnisse anhand traditioneller Klassifizierungsergebnisse.</p>
+
+<h3 id="-leistungskennzahlen">🎯 Leistungskennzahlen</h3>
+
+<p>Der Ansatz erreicht:</p>
+<ul>
+  <li>✅ <strong>Genauigkeit von bis zu 88,89%</strong></li>
+  <li>✅ <strong>Makro-durchschnittlicher F1-Score von bis zu 63,65%</strong></li>
+</ul>
+
+<p>Diese Ergebnisse zeigen, dass <strong>unüberwachte Verfahren</strong> eine viable Alternative zu überwachten Methoden darstellen, insbesondere in Szenarien mit:</p>
+<ul>
+  <li><strong>Limitierten gelabelten Daten</strong></li>
+  <li><strong>Unbekannten Fehlermustern</strong></li>
+  <li><strong>Zeitreihen unterschiedlicher Längen</strong></li>
+</ul>
+
+<h2 id="-anwendung-in-der-automobilindustrie">🏭 Anwendung in der Automobilindustrie</h2>
+
+<p>Der praktische Test erfolgte mit <strong>realen Daten aus der Automobilindustrie</strong>, was die Übertragbarkeit und <strong>industrielle Relevanz</strong> des Ansatzes unterstreicht. In dieser Branche ist die <strong>Qualitätssicherung bei Schraubverbindungen</strong> von kritischer Bedeutung für:</p>
+
+<ul>
+  <li><strong>Sicherheit der Fahrzeuge</strong></li>
+  <li><strong>Produktionseffizienz</strong></li>
+  <li><strong>Kosteneinsparungen</strong></li>
+  <li><strong>Qualitätsstandards</strong></li>
+</ul>
+
+<h2 id="-wissenschaftlicher-beitrag">🔬 Wissenschaftlicher Beitrag</h2>
+
+<p>Diese Veröffentlichung ist ein wichtiger <strong>Meilenstein im ProData-Projekt</strong> und zeigt, wie <strong>fortschrittliche Machine Learning Methoden</strong> zur Lösung realer Industrieprobleme eingesetzt werden können.</p>
+
+<h3 id="-weitere-informationen">📖 Weitere Informationen</h3>
+
+<p>Die <strong>Schritte zur Analyse</strong> wurden <strong>öffentlich zugänglich</strong> gemacht, um die Reproduzierbarkeit und weitere Forschung zu fördern.</p>
+
+<h2 id="-ausblick">🚀 Ausblick</h2>
+
+<p>Diese Forschungsarbeit bildet eine <strong>wichtige Grundlage</strong> für weitere Entwicklungen im Bereich der:</p>
+<ul>
+  <li><strong>Unüberwachten Anomalieerkennung</strong></li>
+  <li><strong>Industriellen Qualitätssicherung</strong></li>
+  <li><strong>Zeitreihenanalyse in der Produktion</strong></li>
+</ul>
+
+<p>Die Ergebnisse werden auch in die <strong>Spritzgussdaten-Analyse</strong> des ProData-Projekts einfließen, um ähnliche Ansätze in der <strong>Kunststoffverarbeitung</strong> zu entwickeln.</p>
+
+<hr />
+
+<p><strong>Publikations-Details:</strong></p>
+<ul>
+  <li><strong>Erscheinungsdatum:</strong> November 2023</li>
+  <li><strong>Bereich:</strong> Unüberwachtes Maschinelles Lernen</li>
+  <li><strong>Anwendungsgebiet:</strong> Automotive Schraubverbindungen</li>
+  <li><strong>Methode:</strong> K-Means Clustering mit Dynamic Time Warping</li>
+  <li><strong>Ergebnis:</strong> 88,89% Genauigkeit in realen Industriedaten</li>
+</ul>]]></content><author><name>ProData Team</name></author><category term="Veröffentlichungen" /><category term="Forschung" /><category term="Anomalieerkennung" /><category term="Machine Learning" /><category term="Schraubverbindungen" /><category term="Clustering" /><category term="K-Means" /><summary type="html"><![CDATA[Da Schraubverbindungen in der Fertigung allgegenwärtig sind, ist ihre effektive und zuverlässige Qualitätssicherung besonders wichtig. Wir stellen einen clusterbasierten Ansatz zur unüberwachten Erkennung von fehlerhaften Schraubvorgängen vor.]]></summary></entry><entry><title type="html">Unsupervised Anomaly Detection in Unbalanced Time Series Data from Screw Driving Processes using k-means Clustering</title><link href="http://localhost:4000/news/publications/paper-cirp-cms-23/" rel="alternate" type="text/html" title="Unsupervised Anomaly Detection in Unbalanced Time Series Data from Screw Driving Processes using k-means Clustering" /><published>2023-11-02T14:00:00+02:00</published><updated>2023-11-02T14:00:00+02:00</updated><id>http://localhost:4000/news/publications/paper-cirp-cms-23</id><content type="html" xml:base="http://localhost:4000/news/publications/paper-cirp-cms-23/"><![CDATA[<h1 id="ansatz-zur-unüberwachten-erkennung-von-anomalien-erschienen">Ansatz zur unüberwachten Erkennung von Anomalien erschienen</h1>
+
+<p>Da <strong>Schraubverbindungen in der Fertigung allgegenwärtig</strong> sind, ist ihre effektive und zuverlässige Qualitätssicherung besonders wichtig. Wir stellen einen <strong>clusterbasierten Ansatz zur unüberwachten Erkennung</strong> von fehlerhaften Schraubvorgängen vor.</p>
+
+<h2 id="-herausforderung-qualitätssicherung-bei-schraubverbindungen">🔩 Herausforderung: Qualitätssicherung bei Schraubverbindungen</h2>
+
+<p>Die meisten Anziehverfahren stützen sich auf <strong>statistische Methoden</strong>, um fehlerhafte Schraubverbindungen bereits während der Montage zu erkennen. Diese traditionellen Ansätze haben jedoch Limitierungen:</p>
+
+<ul>
+  <li><strong>Hoher manueller Aufwand</strong> für Labeling</li>
+  <li><strong>Begrenzte Erkennungsrate</strong> für unbekannte Fehler</li>
+  <li><strong>Aufwändige Datenvorverarbeitung</strong> für unterschiedliche Zeitreihenlängen</li>
+</ul>
+
+<h2 id="-unser-innovativer-ansatz">🧠 Unser innovativer Ansatz</h2>
+
+<p>In diesem Beitrag befassen wir uns mit der <strong>Erkennung von fehlerhaften Schraubvorgängen</strong> mit Hilfe eines <strong>clusterbasierten Ansatzes</strong> aus dem Bereich des unüberwachten maschinellen Lernens.</p>
+
+<h3 id="-methodischer-ansatz">🎯 Methodischer Ansatz</h3>
+
+<p>Insbesondere wenden wir den <strong>k-Means-Algorithmus</strong> auf einen realen Datensatz aus der <strong>Automobilindustrie</strong> an. Das Modell verwendet <strong>Dynamic Time Warping</strong>, um die Ähnlichkeit zwischen normalen und abnormalen Schraubvorgängen zu bestimmen, wobei jeder Vorgang als <strong>unabhängige zeitliche Sequenz</strong> behandelt wird.</p>
+
+<h3 id="-technische-innovation">⚡ Technische Innovation</h3>
+
+<p><strong>Dynamic Time Warping (DTW)</strong> ist eine Technik, die es ermöglicht:</p>
+<ul>
+  <li><strong>Zeitreihen unterschiedlicher Längen</strong> zu vergleichen</li>
+  <li><strong>Ähnlichkeitsmuster</strong> auch bei zeitlichen Verschiebungen zu erkennen</li>
+  <li><strong>Robuste Distanzmessungen</strong> zwischen Sequenzen durchzuführen</li>
+</ul>
+
+<h2 id="-drei-entscheidende-vorteile">✅ Drei entscheidende Vorteile</h2>
+
+<p>Dieser Ansatz bietet <strong>drei Vorteile</strong> gegenüber bestehenden überwachten Methoden:</p>
+
+<h3 id="1--flexible-zeitreihenlängen">1. 📏 Flexible Zeitreihenlängen</h3>
+<p><strong>Zeitreihen mit unterschiedlichen Längen</strong> können ohne umfangreiche Vorverarbeitungsschritte genutzt werden</p>
+
+<h3 id="2--erkennung-unbekannter-fehler">2. 🔍 Erkennung unbekannter Fehler</h3>
+<p><strong>Bisher unbekannte Fehler</strong> können mit dem unüberwachten Ansatz erkannt werden</p>
+
+<h3 id="3-️-keine-manuellen-labels-nötig">3. 🏷️ Keine manuellen Labels nötig</h3>
+<p><strong>Umfangreiche manuelle Anstrengungen</strong> zur Erzeugung von Labels sind nicht mehr notwendig</p>
+
+<h2 id="-beeindruckende-ergebnisse">📊 Beeindruckende Ergebnisse</h2>
+
+<p>Um den Ansatz zu evaluieren, wird er in einem <strong>Szenario angewendet, in dem tatsächliche Klassenlabels verfügbar</strong> sind. Dies ermöglicht die Bewertung der Clustering-Ergebnisse anhand traditioneller Klassifizierungsergebnisse.</p>
+
+<h3 id="-leistungskennzahlen">🎯 Leistungskennzahlen</h3>
+
+<p>Der Ansatz erreicht:</p>
+<ul>
+  <li>✅ <strong>Genauigkeit von bis zu 88,89%</strong></li>
+  <li>✅ <strong>Makro-durchschnittlicher F1-Score von bis zu 63,65%</strong></li>
+</ul>
+
+<p>Diese Ergebnisse zeigen, dass <strong>unüberwachte Verfahren</strong> eine viable Alternative zu überwachten Methoden darstellen, insbesondere in Szenarien mit:</p>
+<ul>
+  <li><strong>Limitierten gelabelten Daten</strong></li>
+  <li><strong>Unbekannten Fehlermustern</strong></li>
+  <li><strong>Zeitreihen unterschiedlicher Längen</strong></li>
+</ul>
+
+<h2 id="-wissenschaftliche-methodik">🔬 Wissenschaftliche Methodik</h2>
+
+<h3 id="k-means-clustering-mit-dynamic-time-warping"><strong>k-Means Clustering mit Dynamic Time Warping</strong></h3>
+
+<p>Die Kombination von <strong>k-Means Clustering</strong> mit <strong>Dynamic Time Warping</strong> ermöglicht:</p>
+<ul>
+  <li><strong>Gruppierung ähnlicher Schraubprozesse</strong> basierend auf Zeitreihenmustern</li>
+  <li><strong>Flexible Behandlung</strong> von Zeitreihen unterschiedlicher Längen</li>
+  <li><strong>Automatische Anomalieerkennung</strong> ohne Vorabwissen über Fehlertypen</li>
+</ul>
+
+<h3 id="unbalanced-time-series-data"><strong>Unbalanced Time Series Data</strong></h3>
+
+<p>Ein besonderer Fokus liegt auf <strong>unausgeglichenen Zeitreihendaten</strong>:</p>
+<ul>
+  <li><strong>Viele normale Schraubvorgänge</strong> vs. wenige fehlerhafte</li>
+  <li><strong>Realistische Produktionsszenarien</strong> mit hoher Prozessstabilität</li>
+  <li><strong>Statistische Herausforderungen</strong> bei der Anomalieerkennung</li>
+</ul>
+
+<h2 id="-wissenschaftlicher-beitrag">🔬 Wissenschaftlicher Beitrag</h2>
+
+<p>Diese Veröffentlichung ist ein wichtiger <strong>Beitrag im ProData-Projekt</strong> und zeigt, wie <strong>fortschrittliche Machine Learning Methoden</strong> zur Lösung realer Industrieprobleme eingesetzt werden können.</p>
+
+<h3 id="-open-source-verfügbarkeit">📖 Open Source Verfügbarkeit</h3>
+
+<p>Die <strong>Schritte zur Analyse</strong> wurden <strong>öffentlich zugänglich</strong> gemacht, um die Reproduzierbarkeit und weitere Forschung zu fördern:</p>
+<ul>
+  <li><strong>GitHub Repository</strong> verfügbar unter: <a href="https://github.com/nikolaiwest/2022-anomaly-detection-cirp">github.com/nikolaiwest/2022-anomaly-detection-cirp</a></li>
+  <li><strong>Vollständige Implementierung</strong> des k-Means + DTW Ansatzes</li>
+  <li><strong>Datensatz-Struktur</strong> und Preprocessing-Pipeline</li>
+</ul>
+
+<h2 id="-ausblick">🚀 Ausblick</h2>
+
+<p>Diese Forschungsarbeit bildet eine <strong>wichtige Grundlage</strong> für weitere Entwicklungen im Bereich der:</p>
+<ul>
+  <li><strong>Unüberwachten Anomalieerkennung</strong></li>
+  <li><strong>Industriellen Qualitätssicherung</strong></li>
+  <li><strong>Zeitreihenanalyse in der Produktion</strong></li>
+</ul>
+
+<p>Die Ergebnisse werden auch in die <strong>Spritzgussdaten-Analyse</strong> des ProData-Projekts einfließen, um ähnliche Ansätze in der <strong>Kunststoffverarbeitung</strong> zu entwickeln.</p>
+
+<h2 id="-technische-details">🔗 Technische Details</h2>
+
+<h3 id="algorithmus-pipeline"><strong>Algorithmus-Pipeline:</strong></h3>
+<ol>
+  <li><strong>Datensammlung</strong> von Schraubprozessen (Drehmoment-Zeit-Verläufe)</li>
+  <li><strong>Dynamic Time Warping</strong> zur Ähnlichkeitsmessung</li>
+  <li><strong>k-Means Clustering</strong> zur Gruppierung ähnlicher Prozesse</li>
+  <li><strong>Anomalieerkennung</strong> basierend auf Cluster-Zugehörigkeit</li>
+  <li><strong>Evaluierung</strong> mit traditionellen Klassifizierungsmetriken</li>
+</ol>
+
+<h3 id="datencharakteristika"><strong>Datencharakteristika:</strong></h3>
+<ul>
+  <li><strong>Zeitreihen unterschiedlicher Längen</strong> (flexibel)</li>
+  <li><strong>Automotive Produktionsdaten</strong> (real-world)</li>
+  <li><strong>Unbalancierte Verteilung</strong> (realistisch)</li>
+  <li><strong>Temporal sequential data</strong> (Drehmoment-Verläufe)</li>
+</ul>
+
+<h2 id="-bedeutung-für-prodata">🌟 Bedeutung für ProData</h2>
+
+<p>Diese Studie demonstriert:</p>
+<ul>
+  <li><strong>Erfolgreiche Anwendung</strong> unüberwachter ML-Methoden in der Produktion</li>
+  <li><strong>Praktikabilität</strong> von Clustering-Ansätzen für Anomalieerkennung</li>
+  <li><strong>Grundlagen</strong> für die Übertragung auf Kunststoffverarbeitungsprozesse</li>
+  <li><strong>Open Science Ansatz</strong> mit verfügbarer Implementierung</li>
+</ul>
+
+<hr />
+
+<h2 id="-publikationsdetails">📚 Publikationsdetails</h2>
+
+<p><strong>Vollständige Zitation:</strong></p>
+<blockquote>
+  <p>West, N., Schlegl, T., &amp; Deuse, J. (2023). Unsupervised anomaly detection in unbalanced time series data from screw driving processes using k-means clustering. <em>Procedia CIRP</em>, 120, 1185-1190. https://doi.org/10.1016/j.procir.2023.09.146</p>
+</blockquote>
+
+<p><strong>BibTeX:</strong></p>
+<div class="language-bibtex highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">@article</span><span class="p">{</span><span class="nl">west2023unsupervised</span><span class="p">,</span>
+  <span class="na">title</span><span class="p">=</span><span class="s">{Unsupervised anomaly detection in unbalanced time series data from screw driving processes using k-means clustering}</span><span class="p">,</span>
+  <span class="na">author</span><span class="p">=</span><span class="s">{West, Nikolai and Schlegl, Thomas and Deuse, Jochen}</span><span class="p">,</span>
+  <span class="na">journal</span><span class="p">=</span><span class="s">{Procedia CIRP}</span><span class="p">,</span>
+  <span class="na">volume</span><span class="p">=</span><span class="s">{120}</span><span class="p">,</span>
+  <span class="na">pages</span><span class="p">=</span><span class="s">{1185--1190}</span><span class="p">,</span>
+  <span class="na">year</span><span class="p">=</span><span class="s">{2023}</span><span class="p">,</span>
+  <span class="na">publisher</span><span class="p">=</span><span class="s">{Elsevier}</span><span class="p">,</span>
+  <span class="na">doi</span><span class="p">=</span><span class="s">{10.1016/j.procir.2023.09.146}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p><strong>Links:</strong></p>
+<ul>
+  <li>📄 <a href="https://doi.org/10.1016/j.procir.2023.09.146">Volltext (Open Access)</a></li>
+  <li>💻 <a href="https://github.com/nikolaiwest/2022-anomaly-detection-cirp">GitHub Repository</a></li>
+  <li>🔗 <a href="https://doi.org/10.1016/j.procir.2023.09.146">DOI: 10.1016/j.procir.2023.09.146</a></li>
+</ul>
+
+<hr />
+
+<p><strong>Open Access:</strong> Die vollständige Veröffentlichung ist unter Creative Commons Lizenz verfügbar.</p>
+
+<p><strong>Reproduzierbarkeit:</strong> Code und Implementierungsdetails sind öffentlich auf GitHub verfügbar für weitere Forschung und industrielle Anwendungen.</p>]]></content><author><name>ProData Team</name></author><category term="news" /><category term="publications" /><category term="Anomaly Detection" /><category term="Time Series Clustering" /><category term="Unsupervised Learning" /><category term="Screw Driving" /><category term="Machine Learning" /><category term="Manufacturing" /><category term="K-Means" /><category term="Dynamic Time Warping" /><summary type="html"><![CDATA[Clustering-basierter Ansatz zur unüberwachten Erkennung von Anomalien in Schraubprozessen mit k-Means und Dynamic Time Warping. Erreicht 88,89% Genauigkeit ohne manuelle Labels.]]></summary></entry><entry xml:lang="de"><title type="html">Workshop zum Einsatz von Maschinellem Lernen in Kassel durchgeführt</title><link href="http://localhost:4000/veranstaltungen/kassel-machine-learning/" rel="alternate" type="text/html" title="Workshop zum Einsatz von Maschinellem Lernen in Kassel durchgeführt" /><published>2023-07-10T10:00:00+02:00</published><updated>2023-07-10T10:00:00+02:00</updated><id>http://localhost:4000/veranstaltungen/kassel-machine-learning</id><content type="html" xml:base="http://localhost:4000/veranstaltungen/kassel-machine-learning/"><![CDATA[<h1 id="workshop-zum-einsatz-von-maschinellem-lernen-in-kassel-durchgeführt">Workshop zum Einsatz von Maschinellem Lernen in Kassel durchgeführt</h1>
+
+<p>Ein wichtiger Bestandteil von ProData ist es die <strong>Datenkompetenzen beim domänenbezogenen Partner IfW</strong> zu fördern. Dazu fand im Juli 2023 ein gemeinsamer Workshop in Kassel statt, der sich den <strong>„Grundlagen des Maschinellen Lernens”</strong> widmete.</p>
+
+<h2 id="-was-ist-maschinelles-lernen">🤖 Was ist Maschinelles Lernen?</h2>
+
+<p><strong>Maschinelles Lernen (ML)</strong> ist eine Form der künstlichen Intelligenz, die es Computern ermöglicht, aus Erfahrungen zu lernen und sich auf Basis von Daten ohne explizite Programmierung zu verbessern. Es hat <strong>transformative Auswirkungen</strong> auf viele Branchen, von der Medizin über Finanzen bis hin zur Energie. Die Grundlagen dieses Feldes zu verstehen, ist entscheidend für die Navigation in der heutigen datengesteuerten Welt.</p>
+
+<h2 id="-grundlagen-des-maschinellen-lernens">📚 Grundlagen des Maschinellen Lernens</h2>
+
+<p>Die moderne <strong>Datenanalytik</strong> sitzt an der Schnittstelle von <strong>Informatik, Statistik und spezifischem Domänenwissen</strong>. Diese interdisziplinäre Natur ermöglicht es Analysten, komplexe Daten zu interpretieren und zu nutzen, um präzise Entscheidungen in Echtzeit zu treffen. Kenntnisse in diesen Bereichen sind unerlässlich, um die volle Leistungsfähigkeit von Technologien wie KI und maschinellem Lernen zu entfalten.</p>
+
+<h3 id="-zentrale-begriffe-des-workshops">🧠 Zentrale Begriffe des Workshops</h3>
+
+<p>Im Workshop wurden zentrale Begriffe wie <strong>künstliche Intelligenz (KI), maschinelles Lernen (ML), neuronale Netze und Deep Learning</strong> behandelt:</p>
+
+<ul>
+  <li>
+    <p><strong>Künstliche Intelligenz</strong> ist ein breites Feld der Informatik, das darauf abzielt, Maschinen zu schaffen, die menschenähnliche Aufgaben ausführen können.</p>
+  </li>
+  <li>
+    <p><strong>Maschinelles Lernen</strong> ist ein Unterbereich der KI, der Algorithmen verwendet, um Muster in Daten zu identifizieren und daraus zu lernen.</p>
+  </li>
+  <li>
+    <p><strong>Neuronale Netze</strong> sind ML-Modelle, die von der Funktionsweise des menschlichen Gehirns inspiriert sind und komplexe Muster und Beziehungen in Daten erkennen können.</p>
+  </li>
+  <li>
+    <p><strong>Deep Learning</strong> ist eine spezielle Kategorie neuronaler Netze, die tiefe Schichten von Neuronen benutzen, um sehr komplexe Muster in großen Datensätzen zu erkennen.</p>
+  </li>
+</ul>
+
+<h2 id="-der-crisp-dm-prozess">🔄 Der CRISP-DM-Prozess</h2>
+
+<p>Eine wichtige Säule des Workshops war die <strong>Einführung in den CRISP-DM-Prozess</strong>:</p>
+
+<blockquote>
+  <p><strong>Cross-Industry Standard Process for Data Mining</strong><br />
+<em>(Chapman et al. 1999)</em></p>
+</blockquote>
+
+<p>Dieses Modell bietet einen <strong>strukturierten Ansatz</strong> für Data-Mining-Projekte und umfasst Phasen wie:</p>
+
+<ol>
+  <li><strong>Business Understanding</strong> - Geschäftsverständnis</li>
+  <li><strong>Data Understanding</strong> - Datenverständnis</li>
+  <li><strong>Data Preparation</strong> - Datenaufbereitung</li>
+  <li><strong>Modeling</strong> - Modellierung</li>
+  <li><strong>Evaluation</strong> - Bewertung</li>
+  <li><strong>Deployment</strong> - Bereitstellung</li>
+</ol>
+
+<p>Die Teilnehmer lernten, wie sie diesen Prozess nutzen können, um ihre <strong>Datenanalyseprojekte systematisch und effektiv</strong> zu gestalten.</p>
+
+<h2 id="️-nutzung-der-datenanalysesoftware-rapidminer">🛠️ Nutzung der Datenanalysesoftware RapidMiner</h2>
+
+<p>Nach den theoretischen Grundlagen behandelte der Workshop die <strong>praktische Anwendung</strong> dieser Konzepte. Dafür wurde die einsteigerfreundliche Datenanalysesoftware <strong>RapidMiner</strong> vorgestellt.</p>
+
+<h3 id="warum-rapidminer">Warum RapidMiner?</h3>
+
+<p><strong>RapidMiner</strong> ist eine führende Plattform für Datenanalyse, die für ihre <strong>Benutzerfreundlichkeit und leistungsfähigen Analysefunktionen</strong> bekannt ist. Diese Software wird in einer Vielzahl von Branchen eingesetzt und hilft Unternehmen sowie Forschern, wertvolle Einsichten aus ihren Daten zu gewinnen.</p>
+
+<p><strong>Vorteile für Anfänger:</strong></p>
+<ul>
+  <li>✅ <strong>Drag-and-Drop-basierte Bedienung</strong></li>
+  <li>✅ <strong>Keine Programmier-Vorerfahrung</strong> nötig</li>
+  <li>✅ <strong>Intuitive Benutzeroberfläche</strong></li>
+  <li>✅ <strong>Breite Palette an Analysefunktionen</strong></li>
+</ul>
+
+<h3 id="-praktische-übungen">🎯 Praktische Übungen</h3>
+
+<p>In dem praktischen Teil des Workshops lernten die Teilnehmer, wie man mit RapidMiner:</p>
+
+<ul>
+  <li><strong>Daten importiert</strong> und vorverarbeitet</li>
+  <li><strong>Analytische Modelle</strong> erstellt</li>
+  <li><strong>Schrittweise durch den Prozess</strong> geführt wird</li>
+  <li>Von der <strong>ersten Datenaufbereitung</strong> bis zur <strong>Entwicklung und Validierung</strong> von Modellen</li>
+</ul>
+
+<h3 id="-fokus-auf-überwachte-lernverfahren">🔬 Fokus auf überwachte Lernverfahren</h3>
+
+<p>Ein besonderer Fokus lag auf <strong>überwachten Lernverfahren</strong>, einer Kernkomponente des maschinellen Lernens. Die Teilnehmer nutzten RapidMiner, um:</p>
+
+<ul>
+  <li><strong>Eigene Modelle zu trainieren</strong> basierend auf vordefinierten Daten</li>
+  <li><strong>Mit verschiedenen Algorithmen</strong> und Techniken zu experimentieren</li>
+  <li><strong>Die beste Lösung</strong> für ein gegebenes Problem zu finden</li>
+</ul>
+
+<p>Diese praktische Erfahrung war entscheidend, um die theoretischen Konzepte zu <strong>festigen und zu vertiefen</strong>.</p>
+
+<h2 id="-teilnehmerfeedback-und-ausblick">💬 Teilnehmerfeedback und Ausblick</h2>
+
+<h3 id="positive-resonanz">Positive Resonanz</h3>
+
+<p>Das <strong>Feedback der Teilnehmer war durchweg positiv</strong>, viele äußerten sich beeindruckt von der einfachen und schnellen Möglichkeit durch RapidMiner <strong>Erkenntnisse über auch größere Datenmengen</strong> zu gewinnen.</p>
+
+<p>Die <strong>praktische Erfahrung mit RapidMiner</strong> wurde besonders geschätzt, da sie es den Teilnehmern ermöglichte, konkrete Fähigkeiten zu entwickeln, die <strong>direkt in ihren Arbeitsalltag integriert</strong> werden können.</p>
+
+<h3 id="-weitere-workshops-geplant">🚀 Weitere Workshops geplant</h3>
+
+<p>Inspiriert durch den Erfolg dieses Workshops planen wir <strong>weitere Veranstaltungen</strong>, die sich sowohl mit den Grundlagen als auch mit fortgeschrittenen Techniken des maschinellen Lernens beschäftigen werden.</p>
+
+<p>Da die Teilnehmenden an diesem Workshop die <strong>Kernzielgruppe der folgenden Schulungsmaßnahmen</strong> bilden, folgen wir ihrem Wunsch und vertiefen in einem weiteren Workshop zunächst die Arbeiten mit RapidMiner. Nach Möglichkeit soll dieser <strong>Folgeworkshop im Herbst 2023</strong> in Kassel stattfinden.</p>
+
+<h2 id="-langfristige-ziele">🎯 Langfristige Ziele</h2>
+
+<p>Unser Ziel ist es, eine <strong>robuste Gemeinschaft von gut informierten und technisch versierten ML-Anwendern</strong> beim IfW zu fördern, die bereit sind, die Herausforderungen einer <strong>datengesteuerten Zukunft</strong> zu meistern.</p>
+
+<hr />
+
+<p><strong>Workshop-Details:</strong></p>
+<ul>
+  <li><strong>Datum:</strong> Juli 2023</li>
+  <li><strong>Ort:</strong> Kassel, Institut für Werkstofftechnik</li>
+  <li><strong>Teilnehmer:</strong> Mitarbeiter des IfW</li>
+  <li><strong>Thema:</strong> Grundlagen des Maschinellen Lernens mit RapidMiner</li>
+  <li><strong>Fortsetzung:</strong> Herbst 2023</li>
+</ul>]]></content><author><name>ProData Team</name></author><category term="Veranstaltungen" /><category term="Workshop" /><category term="Maschinelles Lernen" /><category term="RapidMiner" /><category term="Datenkompetenzen" /><category term="Kassel" /><summary type="html"><![CDATA[Ein wichtiger Bestandteil von ProData ist es die Datenkompetenzen beim domänenbezogenen Partner IfW zu fördern. Dazu fand im Juli 2023 ein gemeinsamer Workshop in Kassel statt, der sich den Grundlagen des Maschinellen Lernens widmete.]]></summary></entry><entry xml:lang="de"><title type="html">Projektstart im Forschungsprojekt ProData</title><link href="http://localhost:4000/forschung/project-gestarted/" rel="alternate" type="text/html" title="Projektstart im Forschungsprojekt ProData" /><published>2022-11-07T10:00:00+02:00</published><updated>2022-11-07T10:00:00+02:00</updated><id>http://localhost:4000/forschung/project-gestarted</id><content type="html" xml:base="http://localhost:4000/forschung/project-gestarted/"><![CDATA[<h1 id="projektstart-im-forschungsprojekt-prodata">Projektstart im Forschungsprojekt ProData</h1>
+
+<h2 id="datenkompetenzen-und-maschinelles-lernen-zur-prozessübergreifenden-qualitätssicherung-in-der-materialforschung">Datenkompetenzen und Maschinelles Lernen zur prozessübergreifenden Qualitätssicherung in der Materialforschung</h2>
+
+<p>Die Qualität spritzgegossener Bauteile nimmt in der Materialforschung aufgrund erweiterter Einsatzgebiete und höherer mechanischer Belastungen zunehmend an Bedeutung zu. In diesem Monat ist das Forschungsprojekt <strong>„ProData”</strong> gestartet, welches das Ziel verfolgt, die Qualitätssicherung und Prozessoptimierung in der Materialverarbeitung mithilfe von <strong>Datenkompetenzen und Machine Learning (ML)</strong> auf eine neue Stufe zu heben.</p>
+
+<h2 id="-herausforderungen-in-der-materialforschung">🔬 Herausforderungen in der Materialforschung</h2>
+
+<p>Die Materialforschung steht vor einer Vielzahl komplexer Herausforderungen. <strong>Steigende Qualitätsanforderungen</strong>, die Notwendigkeit der Verarbeitung komplexer Bauteilgeometrien, zunehmende Variantenvielfalt und die Integration von <strong>Rezyklaten</strong> in den Herstellungsprozess stellen die Prozesse vor wachsende Herausforderungen.</p>
+
+<p>Traditionelle Methoden zur Qualitätssicherung und modellbasierten Prozessoptimierung erreichen ihre <strong>Grenzen angesichts dieser Komplexität</strong>.</p>
+
+<h2 id="-rolle-von-machine-learning-und-datenkompetenzen">🤖 Rolle von Machine Learning und Datenkompetenzen</h2>
+
+<p><strong>Machine Learning</strong>, ein Teilgebiet der Künstlichen Intelligenz, erweist sich als <strong>Schlüsseltechnologie</strong> zur Bewältigung dieser Herausforderungen. ML-Methoden ermöglichen die Analyse und Identifikation von <strong>Ursache-Wirkungszusammenhängen</strong> in großen, prozessübergreifenden Datenmengen.</p>
+
+<p>Diese Forschung setzt auf eine breite Palette von ML-Verfahren:</p>
+<ul>
+  <li><strong>Überwachte Lernverfahren</strong> (Supervised Learning)</li>
+  <li><strong>Unüberwachte Lernverfahren</strong> (Unsupervised Learning)</li>
+  <li><strong>Semi-überwachte Lernverfahren</strong> (Semi-supervised Learning)</li>
+  <li><strong>Bestärkende Lernverfahren</strong> (Reinforcement Learning)</li>
+</ul>
+
+<h2 id="-forschungsfragen-und-gegenstand-der-anstehenden-arbeiten">❓ Forschungsfragen und Gegenstand der anstehenden Arbeiten</h2>
+
+<p>Im Rahmen des Projekts <strong>„ProData”</strong> werden folgende zentrale Fragen untersucht:</p>
+
+<h3 id="1-identifikation-datenbasierter-anomalien-in-spritzgießprozessen">1. Identifikation datenbasierter Anomalien in Spritzgießprozessen</h3>
+<p><strong>Inwieweit lassen sich mithilfe datenbasierter Methoden Anomalien in den Spritzgießprozessen identifizieren?</strong></p>
+
+<h3 id="2-nutzung-von-imbalanced-data-für-die-unüberwachte-anomaliedetektion">2. Nutzung von Imbalanced Data für die unüberwachte Anomaliedetektion</h3>
+<p><strong>Wie können ungleichgewichtete Datensätze aus Schraubprozessen systematisch für die unüberwachte Anomaliedetektion unter Verwendung von Zeitreihen-Clustering-Verfahren genutzt werden?</strong></p>
+
+<h3 id="3-prozessketten-übergreifende-identifikation-von-anomalien">3. Prozessketten-übergreifende Identifikation von Anomalien</h3>
+<p><strong>Welche Anomalien können prozessketten-übergreifend basierend auf den Rohmaterialien sowie potenziellen Fehlerclustern in Spritzgieß- und Schraubprozessen identifiziert werden?</strong></p>
+
+<h3 id="4-identifikation-von-assoziationen-und-fehlerursachen">4. Identifikation von Assoziationen und Fehlerursachen</h3>
+<p><strong>Welche Assoziationen und Fehlerursachen können auf der Grundlage der identifizierten Anomalien ermittelt werden?</strong></p>
+
+<h2 id="-realisierung-des-projekts-und-anstehende-schritte">🚀 Realisierung des Projekts und anstehende Schritte</h2>
+
+<p>Das Projekt erstreckt sich über die <strong>gesamte Prozesskette</strong>, einschließlich:</p>
+<ul>
+  <li><strong>Spritzgießprozessen</strong></li>
+  <li><strong>Montage</strong></li>
+  <li><strong>Prüfprozessen</strong></li>
+</ul>
+
+<h3 id="projektzeitraum">Projektzeitraum</h3>
+<p>Mit dem <strong>Projektstart im November 2022</strong> beginnen die Arbeiten, die sich über <strong>drei Jahre</strong> erstrecken werden und im <strong>Herbst 2025</strong> abgeschlossen werden.</p>
+
+<h2 id="-förderung-des-wissenschaftlichen-nachwuchses">🎓 Förderung des wissenschaftlichen Nachwuchses</h2>
+
+<p>Das Projekt <strong>„ProData”</strong> wird nicht nur einen Beitrag zur Materialforschung leisten, sondern auch den <strong>wissenschaftlichen Nachwuchs im Bereich der Datenkompetenz</strong> fördern.</p>
+
+<p>Diese Initiative wird dazu beitragen, <strong>Prozess- und Bauteilqualität proaktiv und prädiktiv</strong> zu überwachen und zu verbessern, was in der Kunststoffverarbeitung und darüber hinaus von großer Bedeutung ist.</p>
+
+<h2 id="-bedeutung-für-die-zukunft">🌟 Bedeutung für die Zukunft</h2>
+
+<p>Das Forschungsprojekt <strong>„ProData”</strong> verspricht, die Materialforschung durch die Integration von <strong>Datenkompetenzen und Machine Learning</strong> zu verändern. Dies wird nicht nur die Materialverarbeitung, sondern auch die Ausbildung des wissenschaftlichen Nachwuchses maßgeblich beeinflussen und die <strong>Zukunft der Kunststoffverarbeitung</strong> gestalten.</p>
+
+<p>Das Projekt ProData stellt somit einen <strong>bedeutenden Schritt in der Wissenschaft und der Materialforschung</strong> dar, der die Branche nachhaltig prägen wird.</p>
+
+<hr />
+
+<h3 id="-projektinformationen">📧 Projektinformationen</h3>
+<ul>
+  <li><strong>Projektlaufzeit:</strong> November 2022 - Herbst 2025</li>
+  <li><strong>Förderung:</strong> BMBF-Programm “Stärkung der Datenkompetenzen des wissenschaftlichen Nachwuchses”</li>
+  <li><strong>Projektpartner:</strong> RIF Institut für Forschung und Transfer e.V., Institut für Werkstofftechnik (Universität Kassel)</li>
+</ul>]]></content><author><name>ProData Team</name></author><category term="Forschung" /><category term="Projektstart" /><category term="Machine Learning" /><category term="Materialforschung" /><category term="Spritzguss" /><category term="Qualitätssicherung" /><summary type="html"><![CDATA[Datenkompetenzen und Maschinelles Lernen zur prozessübergreifenden Qualitätssicherung in der Materialforschung. Das Forschungsprojekt ProData ist gestartet und verfolgt das Ziel, die Qualitätssicherung in der Materialverarbeitung auf eine neue Stufe zu heben.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/prodata-logo.png" /><media:content medium="image" url="http://localhost:4000/assets/images/prodata-logo.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

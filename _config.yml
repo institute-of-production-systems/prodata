@@ -1,32 +1,41 @@
-# ProData Project Website Configuration
-# Based on Minimal Mistakes Jekyll Theme and a starter
-# https://github.com/mmistakes/mm-github-pages-starter
-
-# Site Settings
-locale: "de-DE"
+# Site settings
 title: "ProData Projekt"
-title_separator: "-"
-subtitle: "Prozessketten-übergreifende Detektion von Material- und Prozessanomalien"
-name: "ProData Team"
-description: "BMBF-gefördertes Forschungsprojekt zur Anomalieerkennung in der Kunststoffverarbeitung mit Machine Learning"
-url: "https://www.prodata-project.de"
-baseurl: ""
-repository: "institute-of-production-systems/prodata"
-teaser: # path of fallback teaser image
-logo: "/assets/images/prodata-logo.png"
-masthead_title: "ProData"
-breadcrumbs: true
-words_per_minute: 200
+description: "Prozessketten-übergreifende Detektion von Material- und Prozessanomalien bei Imbalanced Data für technische Kunststoffbaugruppen"
+url: "https://institute-of-production-systems.github.io"
+baseurl: "/prodata"
 
-# Site Footer
-footer:
-  links:
-    - label: "RIF Institut"
-      icon: "fas fa-fw fa-link"
-      url: "https://www.rif-ev.de/"
-    - label: "Uni Kassel"
-      icon: "fas fa-fw fa-link"
-      url: "https://www.uni-kassel.de/maschinenbau/institute/werkstofftechnik"
+# CRITICAL: Theme and plugins for GitHub Pages
+remote_theme: "mmistakes/minimal-mistakes"
+
+# CRITICAL: Required plugins for GitHub Pages
+plugins:
+  - jekyll-remote-theme
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+  - jemoji
+  - jekyll-algolia
+
+# GitHub Pages safe plugins
+whitelist:
+  - jekyll-remote-theme
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+  - jemoji
+  - jekyll-algolia
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:categories/:title/
+paginate: 5
+paginate_path: /news/page:num/
+timezone: Europe/Berlin
 
 # Reading Files
 include:
@@ -64,8 +73,6 @@ encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 # Conversion
-markdown: kramdown
-highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
@@ -86,32 +93,6 @@ sass:
   sass_dir: _sass
   style: compressed
 
-# Outputting
-permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /news/page:num/
-timezone: Europe/Berlin
-
-# Plugins (previously gems:)
-plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jekyll-include-cache
-  - jemoji
-  - jekyll-algolia
-
-# mimic GitHub Pages with --safe
-whitelist:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jekyll-include-cache
-  - jemoji
-  - jekyll-algolia
-
 # Archives
 category_archive:
   type: liquid
@@ -125,9 +106,6 @@ compress_html:
   clippings: all
   ignore:
     envs: development
-
-# Theme
-remote_theme: "mmistakes/minimal-mistakes"
 
 # Defaults
 defaults:
@@ -171,3 +149,18 @@ project:
       leader: "Prof. Dr.-Ing. Hans-Peter Heim"
       url: "https://www.uni-kassel.de/maschinenbau/institute/werkstofftechnik"
       email: "heim@uni-kassel.de"
+
+# Navigation
+navigation:
+  - title: "Start"
+    url: "/"
+  - title: "Forschung"
+    url: "/research/"
+  - title: "Partner"
+    url: "/partners/"
+  - title: "News"
+    url: "/news/"
+  - title: "Veröffentlichungen"
+    url: "/publications/"
+  - title: "Kontakt"
+    url: "/contact/"
